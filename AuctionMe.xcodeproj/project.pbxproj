@@ -3,18 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		04E457072611618C00D197EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E457062611618C00D197EE /* AppDelegate.swift */; };
 		04E457092611618C00D197EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E457082611618C00D197EE /* SceneDelegate.swift */; };
-		04E4570B2611618C00D197EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4570A2611618C00D197EE /* ViewController.swift */; };
 		04E4570E2611618C00D197EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E4570C2611618C00D197EE /* Main.storyboard */; };
 		04E457102611618E00D197EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E4570F2611618E00D197EE /* Assets.xcassets */; };
 		04E457132611618E00D197EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E457112611618E00D197EE /* LaunchScreen.storyboard */; };
 		04E4571E2611618F00D197EE /* AuctionMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4571D2611618F00D197EE /* AuctionMeTests.swift */; };
 		04E457292611618F00D197EE /* AuctionMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E457282611618F00D197EE /* AuctionMeUITests.swift */; };
+		04E457452613AEA300D197EE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E457442613AEA300D197EE /* LoginViewController.swift */; };
+		04E4574A2613AEC700D197EE /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E457492613AEC700D197EE /* FeedViewController.swift */; };
+		1F6C931950C7E6121B381C7D /* Pods_AuctionMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFB0821EA8C92B7BB54657A /* Pods_AuctionMeTests.framework */; };
+		7B57A954A594523C620F6138 /* Pods_AuctionMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D03468760F346A75645BABF /* Pods_AuctionMe.framework */; };
+		BF5A3760C62BDDC493C78745 /* Pods_AuctionMe_AuctionMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A034F1BE6C49FA4DF20D011C /* Pods_AuctionMe_AuctionMeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 		04E457032611618C00D197EE /* AuctionMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuctionMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E457062611618C00D197EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E457082611618C00D197EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04E4570A2611618C00D197EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04E4570D2611618C00D197EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04E4570F2611618E00D197EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E457122611618E00D197EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,17 @@
 		04E457242611618F00D197EE /* AuctionMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuctionMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E457282611618F00D197EE /* AuctionMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionMeUITests.swift; sourceTree = "<group>"; };
 		04E4572A2611618F00D197EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E457442613AEA300D197EE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		04E457492613AEC700D197EE /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		69EB24929A6AE3BB2FA9B032 /* Pods-AuctionMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuctionMeTests.release.xcconfig"; path = "Target Support Files/Pods-AuctionMeTests/Pods-AuctionMeTests.release.xcconfig"; sourceTree = "<group>"; };
+		6D03468760F346A75645BABF /* Pods_AuctionMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuctionMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A034F1BE6C49FA4DF20D011C /* Pods_AuctionMe_AuctionMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuctionMe_AuctionMeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A040E2BB8BA7669220D7573F /* Pods-AuctionMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuctionMeTests.debug.xcconfig"; path = "Target Support Files/Pods-AuctionMeTests/Pods-AuctionMeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFFB0821EA8C92B7BB54657A /* Pods_AuctionMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuctionMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0CC02D32E24335CD4F36870 /* Pods-AuctionMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuctionMe.release.xcconfig"; path = "Target Support Files/Pods-AuctionMe/Pods-AuctionMe.release.xcconfig"; sourceTree = "<group>"; };
+		D7F3213A55F249E84A3AC861 /* Pods-AuctionMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuctionMe.debug.xcconfig"; path = "Target Support Files/Pods-AuctionMe/Pods-AuctionMe.debug.xcconfig"; sourceTree = "<group>"; };
+		E80C622C9294FBB2835E4131 /* Pods-AuctionMe-AuctionMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuctionMe-AuctionMeUITests.debug.xcconfig"; path = "Target Support Files/Pods-AuctionMe-AuctionMeUITests/Pods-AuctionMe-AuctionMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE6570DD85179C99265AE87C /* Pods-AuctionMe-AuctionMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuctionMe-AuctionMeUITests.release.xcconfig"; path = "Target Support Files/Pods-AuctionMe-AuctionMeUITests/Pods-AuctionMe-AuctionMeUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B57A954A594523C620F6138 /* Pods_AuctionMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F6C931950C7E6121B381C7D /* Pods_AuctionMeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5A3760C62BDDC493C78745 /* Pods_AuctionMe_AuctionMeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				04E4571C2611618F00D197EE /* AuctionMeTests */,
 				04E457272611618F00D197EE /* AuctionMeUITests */,
 				04E457042611618C00D197EE /* Products */,
+				C983A851590739CDA7625896 /* Pods */,
+				E5E249DC54B41BC2FBD74B8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +120,12 @@
 			children = (
 				04E457062611618C00D197EE /* AppDelegate.swift */,
 				04E457082611618C00D197EE /* SceneDelegate.swift */,
-				04E4570A2611618C00D197EE /* ViewController.swift */,
 				04E4570C2611618C00D197EE /* Main.storyboard */,
 				04E4570F2611618E00D197EE /* Assets.xcassets */,
 				04E457112611618E00D197EE /* LaunchScreen.storyboard */,
 				04E457142611618E00D197EE /* Info.plist */,
+				04E457442613AEA300D197EE /* LoginViewController.swift */,
+				04E457492613AEC700D197EE /* FeedViewController.swift */,
 			);
 			path = AuctionMe;
 			sourceTree = "<group>";
@@ -128,6 +148,29 @@
 			path = AuctionMeUITests;
 			sourceTree = "<group>";
 		};
+		C983A851590739CDA7625896 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7F3213A55F249E84A3AC861 /* Pods-AuctionMe.debug.xcconfig */,
+				C0CC02D32E24335CD4F36870 /* Pods-AuctionMe.release.xcconfig */,
+				E80C622C9294FBB2835E4131 /* Pods-AuctionMe-AuctionMeUITests.debug.xcconfig */,
+				FE6570DD85179C99265AE87C /* Pods-AuctionMe-AuctionMeUITests.release.xcconfig */,
+				A040E2BB8BA7669220D7573F /* Pods-AuctionMeTests.debug.xcconfig */,
+				69EB24929A6AE3BB2FA9B032 /* Pods-AuctionMeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E5E249DC54B41BC2FBD74B8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D03468760F346A75645BABF /* Pods_AuctionMe.framework */,
+				A034F1BE6C49FA4DF20D011C /* Pods_AuctionMe_AuctionMeUITests.framework */,
+				AFFB0821EA8C92B7BB54657A /* Pods_AuctionMeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04E4572D2611618F00D197EE /* Build configuration list for PBXNativeTarget "AuctionMe" */;
 			buildPhases = (
+				7E75CE230AF9459BA16AB29F /* [CP] Check Pods Manifest.lock */,
 				04E456FF2611618C00D197EE /* Sources */,
 				04E457002611618C00D197EE /* Frameworks */,
 				04E457012611618C00D197EE /* Resources */,
+				5E76EC106D054E015E6C6C6B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04E457302611618F00D197EE /* Build configuration list for PBXNativeTarget "AuctionMeTests" */;
 			buildPhases = (
+				C5C87676720FC6183EAF0737 /* [CP] Check Pods Manifest.lock */,
 				04E457152611618F00D197EE /* Sources */,
 				04E457162611618F00D197EE /* Frameworks */,
 				04E457172611618F00D197EE /* Resources */,
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04E457332611618F00D197EE /* Build configuration list for PBXNativeTarget "AuctionMeUITests" */;
 			buildPhases = (
+				7CBFA3B8389BFB1E4D121C25 /* [CP] Check Pods Manifest.lock */,
 				04E457202611618F00D197EE /* Sources */,
 				04E457212611618F00D197EE /* Frameworks */,
 				04E457222611618F00D197EE /* Resources */,
+				787A77A11DDDB94E14B160AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,13 +301,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E76EC106D054E015E6C6C6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuctionMe/Pods-AuctionMe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuctionMe/Pods-AuctionMe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AuctionMe/Pods-AuctionMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		787A77A11DDDB94E14B160AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuctionMe-AuctionMeUITests/Pods-AuctionMe-AuctionMeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuctionMe-AuctionMeUITests/Pods-AuctionMe-AuctionMeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AuctionMe-AuctionMeUITests/Pods-AuctionMe-AuctionMeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CBFA3B8389BFB1E4D121C25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuctionMe-AuctionMeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E75CE230AF9459BA16AB29F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuctionMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5C87676720FC6183EAF0737 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuctionMeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04E456FF2611618C00D197EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E4570B2611618C00D197EE /* ViewController.swift in Sources */,
+				04E457452613AEA300D197EE /* LoginViewController.swift in Sources */,
 				04E457072611618C00D197EE /* AppDelegate.swift in Sources */,
+				04E4574A2613AEC700D197EE /* FeedViewController.swift in Sources */,
 				04E457092611618C00D197EE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +585,7 @@
 		};
 		04E4572E2611618F00D197EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7F3213A55F249E84A3AC861 /* Pods-AuctionMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +604,7 @@
 		};
 		04E4572F2611618F00D197EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0CC02D32E24335CD4F36870 /* Pods-AuctionMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +623,7 @@
 		};
 		04E457312611618F00D197EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A040E2BB8BA7669220D7573F /* Pods-AuctionMeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +645,7 @@
 		};
 		04E457322611618F00D197EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69EB24929A6AE3BB2FA9B032 /* Pods-AuctionMeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +667,7 @@
 		};
 		04E457342611618F00D197EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E80C622C9294FBB2835E4131 /* Pods-AuctionMe-AuctionMeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +687,7 @@
 		};
 		04E457352611618F00D197EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE6570DD85179C99265AE87C /* Pods-AuctionMe-AuctionMeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
