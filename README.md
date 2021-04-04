@@ -66,7 +66,7 @@ We aim to create a next-gen dating application that revolutionises the online da
 * Settings -> Toggle settings
 
 ## Wireframes
-<img src="https://i.imgur.com/9CrjH1K.jpg" width=800><br>
+<img src="https://i.imgur.com/322aI2E.jpg" width=800><br>
 
 ## Schema
 **Posts**
