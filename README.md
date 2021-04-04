@@ -22,15 +22,15 @@ We aim to create a next-gen dating application that revolutionises the online da
 
 **Required Must-have Stories**
 
-[x] User logs in to access previous chats and preference settings
-[ ] User can view posts from other users with dating profiles.
-[ ] User can like or dislike a post to show interest
-[ ] User can utilize a private chat feature to communicate with others
-[ ] Settings (Accesibility, Notification, General, etc.)
+- [x] User logs in to access previous chats and preference settings
+- [ ] User can view posts from other users with dating profiles.
+- [ ] User can like or dislike a post to show interest
+- [ ] User can utilize a private chat feature to communicate with others
+- [ ] Settings (Accesibility, Notification, General, etc.)
 
 **Optional Nice-to-have Stories**
 
-[ ] Most Favorite meme
+- [ ] Most Favorite meme
 
 ### 2. Screen Archetypes
 
