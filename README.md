@@ -89,3 +89,7 @@ We aim to create a next-gen dating application that revolutionises the online da
 | age | Number | Age of person being posted |
 | location | String | description of interests |
 | password | String | description of pros and cons of person |
+
+### App Walkthrough GIF
+
+<img src="http://g.recordit.co/5Lq20pwnuL.gif" width=250><br>
