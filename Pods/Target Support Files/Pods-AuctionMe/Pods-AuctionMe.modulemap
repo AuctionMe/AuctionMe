@@ -1,0 +1,6 @@
+framework module Pods_AuctionMe {
+  umbrella header "Pods-AuctionMe-umbrella.h"
+
+  export *
+  module * { export * }
+}
