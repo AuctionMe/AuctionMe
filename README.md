@@ -23,7 +23,7 @@ We aim to create a next-gen dating application that revolutionises the online da
 **Required Must-have Stories**
 
 - [x] User logs in to access previous chats and preference settings
-- [ ] User can view posts from other users with dating profiles.
+- [x] User can view posts from other users with dating profiles.
 - [ ] User can like or dislike a post to show interest
 - [ ] User can utilize a private chat feature to communicate with others
 - [ ] Settings (Accesibility, Notification, General, etc.)
@@ -92,4 +92,4 @@ We aim to create a next-gen dating application that revolutionises the online da
 
 ### App Walkthrough GIF
 
-<img src="http://g.recordit.co/5Lq20pwnuL.gif" width=250><br>
+<img src="http://g.recordit.co/yFIGxnAqVy.gif" width=250><br>
