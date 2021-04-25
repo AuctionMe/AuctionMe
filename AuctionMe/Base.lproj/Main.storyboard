@@ -195,7 +195,7 @@
                                                         <action selector="dislike:" destination="rvt-uk-rFa" eventType="touchUpInside" id="naS-a2-ITJ"/>
                                                     </connections>
                                                 </button>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ABR-D5-XYr">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ABR-D5-XYr">
                                                     <rect key="frame" x="0.0" y="143.5" width="414" height="408.5"/>
                                                 </imageView>
                                             </subviews>
@@ -254,21 +254,71 @@
             </objects>
             <point key="canvasLocation" x="1531.8840579710145" y="-1333.2589285714284"/>
         </scene>
-        <!--View Controller-->
+        <!--Chat-->
         <scene sceneID="qlU-tq-Oeh">
             <objects>
-                <viewController id="e21-1h-Tjt" sceneMemberID="viewController">
+                <viewController id="e21-1h-Tjt" customClass="ChatViewController" customModule="AuctionMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="g8U-bN-xVW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="n8f-dK-lew">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="xBV-aH-RIt"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="bTb-j9-lsy"/>
+                    <navigationItem key="navigationItem" title="Chat" id="bTb-j9-lsy">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="square.and.pencil" catalog="system" id="4uY-1z-TEc">
+                            <connections>
+                                <segue destination="0QB-4A-XGS" kind="presentation" id="dfp-5n-iWa"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="messageTableView" destination="n8f-dK-lew" id="52r-B2-RMh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JAS-Pg-d8p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1532" y="-635"/>
+            <point key="canvasLocation" x="1531.8840579710145" y="-635.49107142857144"/>
+        </scene>
+        <!--New Chat View Controller-->
+        <scene sceneID="3JE-Sj-RfG">
+            <objects>
+                <viewController id="0QB-4A-XGS" customClass="NewChatViewController" customModule="AuctionMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rm8-20-lBE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vbX-Fd-SaL">
+                                <rect key="frame" x="20" y="123" width="374" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oqx-JA-b7E">
+                                <rect key="frame" x="159" y="193" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Start Chatting"/>
+                                <connections>
+                                    <action selector="startChattingButton:" destination="0QB-4A-XGS" eventType="touchUpInside" id="2Mx-1M-F3v"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="b6o-fm-Tdb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="usernameTextField" destination="vbX-Fd-SaL" id="RO3-uP-0JY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hWM-LX-JvW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2305.7971014492755" y="-635.49107142857144"/>
         </scene>
         <!--Feed-->
         <scene sceneID="wkv-Qy-IJA">
@@ -500,6 +550,7 @@
         <image name="post_tab" width="16" height="16"/>
         <image name="profile_tab" width="16" height="16"/>
         <image name="settings_tab" width="16" height="16"/>
+        <image name="square.and.pencil" catalog="system" width="128" height="115"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -47,6 +47,8 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
                 print("Error!!")
             }
         }
+        
+        dismiss(animated: true, completion: nil)
     }
     
     @IBAction func onCameraButton(_ sender: Any) {

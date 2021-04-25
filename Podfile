@@ -7,7 +7,9 @@ target 'AuctionMe' do
 
   # Pods for AuctionMe
   pod 'Parse'
-  pod "AlamofireImage"
+  pod 'AlamofireImage'
+  pod 'MessageKit'
+  pod 'InputBarAccessoryView'
 
   target 'AuctionMeTests' do
     inherit! :search_paths
