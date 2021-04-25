@@ -34,6 +34,7 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
         post["interests"] = interestsTextView.text!
         post["prosCons"] = prosConsTextView.text!
         post["author"] = PFUser.current()!
+        post["liked"] = false
         
         let imageData = imageView.image!.pngData()
         let file = PFFileObject(name: "image.png", data: imageData!)

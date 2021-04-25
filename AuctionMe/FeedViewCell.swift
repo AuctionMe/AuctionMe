@@ -17,20 +17,17 @@ class FeedViewCell: UITableViewCell {
     @IBOutlet weak var interestsLabel: UILabel!
     @IBOutlet weak var prosConsLabel: UILabel!
     @IBOutlet weak var photoView: UIImageView!
-    
     @IBOutlet weak var likeButton: UIButton!
-    
     @IBOutlet weak var dislikeButton: UIButton!
+    
+    public var post = PFObject.init(className: "Posts")
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
     
     var disliked:Bool = false
@@ -48,11 +45,12 @@ class FeedViewCell: UITableViewCell {
         let toBeDisliked = !disliked
         if(toBeDisliked){
             self.setDisliked(true)
+            self.setLiked(false)
+            post["liked"] = false
         }else{
             setDisliked(false)
         }
     }
-
     
     var liked:Bool = false
     
@@ -69,11 +67,10 @@ class FeedViewCell: UITableViewCell {
         let toBeLiked = !liked
         if(toBeLiked){
             self.setLiked(true)
+            self.setDisliked(false)
+            post["liked"] = true
         }else{
             setLiked(false)
         }
     }
-    
-    
-    
 }

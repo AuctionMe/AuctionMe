@@ -24,6 +24,7 @@
 		D9B492B6262F447100E61834 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B492B5262F447100E61834 /* ChatViewController.swift */; };
 		D9B492BB26306CCA00E61834 /* PrivateChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B492BA26306CCA00E61834 /* PrivateChatViewController.swift */; };
 		D9B492C026311E7F00E61834 /* NewChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B492BF26311E7F00E61834 /* NewChatViewController.swift */; };
+		D9B492D22635CEC500E61834 /* LikedPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B492D12635CEC500E61834 /* LikedPostsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		D9B492B5262F447100E61834 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		D9B492BA26306CCA00E61834 /* PrivateChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateChatViewController.swift; sourceTree = "<group>"; };
 		D9B492BF26311E7F00E61834 /* NewChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChatViewController.swift; sourceTree = "<group>"; };
+		D9B492D12635CEC500E61834 /* LikedPostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedPostsViewController.swift; sourceTree = "<group>"; };
 		E80C622C9294FBB2835E4131 /* Pods-AuctionMe-AuctionMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuctionMe-AuctionMeUITests.debug.xcconfig"; path = "Target Support Files/Pods-AuctionMe-AuctionMeUITests/Pods-AuctionMe-AuctionMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FE6570DD85179C99265AE87C /* Pods-AuctionMe-AuctionMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuctionMe-AuctionMeUITests.release.xcconfig"; path = "Target Support Files/Pods-AuctionMe-AuctionMeUITests/Pods-AuctionMe-AuctionMeUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,6 +143,7 @@
 				D9B492B5262F447100E61834 /* ChatViewController.swift */,
 				D9B492BA26306CCA00E61834 /* PrivateChatViewController.swift */,
 				D9B492BF26311E7F00E61834 /* NewChatViewController.swift */,
+				D9B492D12635CEC500E61834 /* LikedPostsViewController.swift */,
 			);
 			path = AuctionMe;
 			sourceTree = "<group>";
@@ -424,6 +427,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9B492D22635CEC500E61834 /* LikedPostsViewController.swift in Sources */,
 				D969BE30262257CB009D6690 /* PostViewController.swift in Sources */,
 				D9B492C026311E7F00E61834 /* NewChatViewController.swift in Sources */,
 				04E457452613AEA300D197EE /* LoginViewController.swift in Sources */,

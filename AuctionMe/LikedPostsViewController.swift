@@ -1,25 +1,26 @@
 //
-//  FeedViewController.swift
+//  LikedPostsViewController.swift
 //  AuctionMe
 //
-//  Created by Alex Mierzejewski on 3/30/21.
+//  Created by Ian Polidora on 4/25/21.
 //
 
 import UIKit
 import Parse
 import AlamofireImage
 
-class FeedViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class LikedPostsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+
     
-    @IBOutlet weak var feedTableView: UITableView!
+    @IBOutlet weak var likedPostsTableView: UITableView!
     
     var posts = [PFObject]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        feedTableView.dataSource = self
-        feedTableView.delegate = self
+        likedPostsTableView.dataSource = self
+        likedPostsTableView.delegate = self
         
     }
     
@@ -28,11 +29,12 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         let query = PFQuery(className: "Posts")
         query.includeKey("author")
+        query.whereKey("liked", equalTo: true)
         
         query.findObjectsInBackground { (posts, error) in
             if posts != nil {
                 self.posts = posts!
-                self.feedTableView.reloadData()
+                self.likedPostsTableView.reloadData()
             }
         }
     }
